@@ -2,9 +2,9 @@
 
 ***
 
-Updated Time : 12/28/2021 
+- Updated Time : 12/28/2021 
 
-Next Update : 10/01/2022
+- Next Update : 10/01/2022
 
 ***
 
@@ -16,6 +16,7 @@ Next Update : 10/01/2022
 
 #### What is Codedx Valorant?
 
+ - Inside the folder there is a spoofer that you can use to build your own. 
  - Codedx is a fully featured internal hack for Valorant written in C++.
 
 ```

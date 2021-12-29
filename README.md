@@ -1,16 +1,24 @@
-# -Valorant-Esp-Aimbot-Hack
-Updated Time : 12/28/2021 
-Next Update : 01/01/2022
-Valorant Esp Aimbot Source Code Hack If you need help compiling or have any other issues contact me on discord at CodedxX#9999.Driver Undetected RN
+###  Valorant Aimbot + Esp C++ 
 
-THIS SOURCECODE IS LONGER UPDATED TO THE NEWEST Valorant PATCH DON'T MESSAGE ME ABOUT IT
+***
+
+Updated Time : 12/28/2021 
+
+Next Update : 10/01/2022
+
+***
+
+
+##### 🔺 This source code has been updated to the newest Valorant patch, please do not message me about it. 🔺
+
 ![image](https://user-images.githubusercontent.com/96410571/147380460-77ab6505-ad0c-4b65-88ba-816b91dd454f.png)
 
 
-### What is Codedx Valorant?
+#### What is Codedx Valorant?
 
-Codedx is a fully featured internal hack for Valorant written in C++.
+ - Codedx is a fully featured internal hack for Valorant written in C++.
 
+```
 ### Features
 * Menu
 * Line
@@ -23,4 +31,4 @@ Codedx is a fully featured internal hack for Valorant written in C++.
 * Bone
 * Fov
 * Etc.
-
+```

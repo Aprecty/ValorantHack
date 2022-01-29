@@ -21,7 +21,7 @@
  - Codedx is a fully featured internal hack for Valorant written in C++.
 
 ```
-### Features
+Features
 * Menu
 * Line
 * Name

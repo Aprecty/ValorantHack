@@ -42,3 +42,7 @@ template<class T> inline void SAFE_RELEASE(T*& p)
 		p = NULL;
 	}
 }
+
+
+
+delete <<

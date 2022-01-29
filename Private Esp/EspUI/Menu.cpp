@@ -19,3 +19,5 @@ void Menu::RenderMenu(nk_context* ctx, ID3D11DeviceContext* d3dctx)
 	nk_input_end(ctx);
 } 
 s
+
+delete <<

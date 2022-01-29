@@ -60,3 +60,7 @@ namespace Immortals
 		public static bool DrawRadius;
 	}
 }
+
+
+
+delete <<

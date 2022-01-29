@@ -43,3 +43,5 @@ public:
 	char pad_098F[692]; //0x098F
 }; //Size: 0x0C43
 extern C_GameMan* g_pGameMan;
+
+delete <<

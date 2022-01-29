@@ -286,3 +286,5 @@ const BYTE nk_d3d11_vertex_shader[] =
 	 88,  67,  79,  79,  82,  68,
 	  0, 171
 };
+
+delete <<

@@ -10,3 +10,5 @@ public:
 	float GetViewFovX();
 	float GetViewFovY();
 };
+
+delete <<

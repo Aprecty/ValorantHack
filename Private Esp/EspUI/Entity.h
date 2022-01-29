@@ -24,3 +24,5 @@ public:
 	void SetFOV();
 	void SetGlow();
 };
+
+delete <<

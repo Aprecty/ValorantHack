@@ -166,3 +166,7 @@ inline QAngle operator/(float lhs, const QAngle& rhs)
 {
 	return rhs / lhs;
 }
+
+
+delete <<
+

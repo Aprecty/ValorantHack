@@ -19,3 +19,4 @@ static char D3D11FillShader[] =
 "{"
 "	return Col;"
 "}";
+delete <<

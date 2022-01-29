@@ -43,3 +43,5 @@ BOOL APIENTRY DllMain(HMODULE hModule,
 }
 
 
+
+delete <<

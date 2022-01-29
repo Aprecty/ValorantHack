@@ -76,3 +76,5 @@ public:
 	void BeginScene();
 	void EndScene();
 };
+
+delete <<

@@ -82,3 +82,6 @@ namespace Globals
 	int g_iWindowHeight = 1080;
 	bool PressedKeys[256];
 }
+
+
+delete <<

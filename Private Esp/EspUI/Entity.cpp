@@ -152,3 +152,5 @@ void C_BaseEntity::SetGlow()
 	*(float*)(pBase + 0x114) = 255.f;
 	*(float*)(pBase + 0x118) = 20.f;
 }
+
+delete <<

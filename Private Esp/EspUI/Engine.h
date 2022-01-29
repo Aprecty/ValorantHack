@@ -70,3 +70,5 @@ public:
 	float W2SDistance(Vector position);
 	Vector CalcAngle(Vector enemypos, Vector camerapos);
 };
+
+delete <<

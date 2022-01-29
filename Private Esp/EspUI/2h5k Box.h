@@ -54,3 +54,4 @@ public:
 	HRESULT restoreSavedState();
 	void releaseSavedState();
 };
+delete <<

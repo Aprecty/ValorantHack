@@ -30,3 +30,5 @@ float C_Camera::GetViewFovY()
 {
 	return *(float*)((uintptr_t)this + 0x124);
 }
+
+delete <<

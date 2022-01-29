@@ -393,3 +393,6 @@ void D3D11Renderer::EndScene()
 	if (this->restoreState)
 		this->stateSaver->restoreSavedState();
 }
+
+
+delete <<

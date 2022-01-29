@@ -6,3 +6,5 @@ namespace Features
 	void RenderESP(D3D11Renderer* Render, nk_context* g_pNkContext);
 	bool DoAimbot();
 }s
+
+delete <<

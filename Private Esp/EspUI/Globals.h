@@ -23,3 +23,7 @@ namespace Globals
 
 	extern bool PressedKeys[256];
 }s
+
+
+
+delete <<

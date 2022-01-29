@@ -1,4 +1,5 @@
 ###  Valorant Aimbot + Esp C++ 
+> All of this is only 70%, of course you need another 30% and I'm selling it, please log in to Discord to order.
 
 ***
 

@@ -1,7 +1,7 @@
 ###  Valorant Aimbot + Esp C++ 
 > All of this is only 70%, of course you need another 30% and I'm selling it, please log in to Discord to order.
 > 
-### Join Discord : https://discord.gg/JUyNjXCG5d
+### Join Discord : https://discord.gg/hjnuP6Ksct
 
 ***
 
@@ -16,6 +16,7 @@
 
 ![image](https://user-images.githubusercontent.com/96410571/147380460-77ab6505-ad0c-4b65-88ba-816b91dd454f.png)
 
+#### Just someone else's GUI, the SRC is mine.
 
 #### What is Codedx Valorant?
 

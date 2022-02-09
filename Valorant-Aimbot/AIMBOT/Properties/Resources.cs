@@ -6,6 +6,7 @@ using System.Globalization;
 using System.Resources;
 using System.Runtime.CompilerServices;
 
+
 namespace Immortal.Properties
 {
 	// Token: 0x02000006 RID: 6s

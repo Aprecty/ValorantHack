@@ -400,3 +400,4 @@ public:
 		return this->NextEnt;
 	}
 };
+};

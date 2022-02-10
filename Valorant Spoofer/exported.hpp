@@ -2,6 +2,10 @@
 #include <ntifs.h>
 #include <classpnp.h>
 
+
+#cleaner 
+
+
 typedef struct _LDR_DATA_TABLE_ENTRY
 {
 	LIST_ENTRY InLoadOrderLinks;

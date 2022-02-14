@@ -42,6 +42,8 @@ private:
 	ID3D11Buffer* m_pIndexBuffer;
 	DXGI_FORMAT					m_indexFormat;
 	UINT						m_indexOffset;
+	ID3D11HullShader* m_pHS;
+	ID3D11ClassInstance* m_pHSClassInstances[256];
 
 	D3D11StateSaver(const D3D11StateSaver&);
 	D3D11StateSaver& operator=(const D3D11StateSaver&);

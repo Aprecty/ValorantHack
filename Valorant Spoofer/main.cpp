@@ -64,6 +64,10 @@ NTSTATUS driver_start( )
 
 		DiskEnableDisableFailurePrediction( fd_extension, FALSE );
 		RaidUnitRegisterInterfaces( raid_extension );
+		
+		const auto raid_extension = static_cast< PRAID_UNIT_EXTENSION >( fs_device->DeviceExtension );
+		const auto identity = reinterpret_cast< PSTOR_SCSI_IDENTITY >( std::uintptr_t( raid_extension ) + 0x68 ); // this offset changes per windows build, you figure it out
+		const auto fdo_descriptor = fd_extension->DeviceDescriptor;
 	}
 		
 	return STATUS_SUCCESS;

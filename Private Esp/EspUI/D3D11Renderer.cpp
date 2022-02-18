@@ -337,7 +337,8 @@ void D3D11Renderer::DrawBox(float x, float y, float w, float h, Color color)
 //	for (auto p : sideLines)
 //		DrawLine(p.first.x, p.first.y, p.second.x, p.second.y, D3DCOLOR_ARGB(255, 160, 32, 240));
 //}
-
+//{
+//}
 void D3D11Renderer::DrawCircle(int x, int y, int radius, int sides, Color color)
 {
 	float Step = 3.14159265 * 2.0 / sides;

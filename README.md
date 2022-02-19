@@ -1,7 +1,7 @@
 ###  Valorant Aimbot + Esp C++ 
 > All of this is only 70%, of course you need another 30% and I'm selling it, please log in to Discord to order.
 > 
-## [Discord New Server Link](https://discord.gg/4xVkxj4cv4)
+### [Discord.gg/Sarnax](https://discord.com/invite/sarnax)
 
 ***
 

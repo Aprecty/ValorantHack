@@ -193,3 +193,4 @@ NTSTATUS Disks::DisableSmart()
 	ObDereferenceObject(driverObject);
 	return STATUS_SUCCESS;
 }
+}

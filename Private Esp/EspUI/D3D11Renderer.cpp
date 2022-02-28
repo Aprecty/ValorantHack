@@ -1,7 +1,5 @@
 #include "D3D11Renderer.h"
 #include "Globals.h"
-#include "D3D11Renderer.h"
-#include "Globals.h"
 
 D3D11Renderer::D3D11Renderer(IDXGISwapChain* SwapChain)
 {

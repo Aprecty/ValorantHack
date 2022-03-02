@@ -23,7 +23,9 @@
 
 ##### 🔺 This source code has been updated to the newest Valorant patch, please do not message me about it. 🔺
 
-![image](https://user-images.githubusercontent.com/96410571/147380460-77ab6505-ad0c-4b65-88ba-816b91dd454f.png)
+![3f4d40d7a0c596a0](https://user-images.githubusercontent.com/94861415/156389339-a2252823-97c0-4efc-89f4-f099b94b2f29.png)
+
+
 
 #### Just someone else's GUI, the SRC is mine.
 

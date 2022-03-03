@@ -1,8 +1,8 @@
 
 ###  Valorant Aimbot + Esp C++ 
-> All of this is only 70%, of course you need another 30% and I'm selling it, please log in to Discord to order.
+All of this is only 70%, of course you need another 30% and I'm selling it, please log in to Discord to order.
 
-
+***
 
   <p align="center">
     <a href="https://discord.gg/bzfWPSsDfR">
@@ -10,7 +10,6 @@
     </a>
 </p>
 
-***
 
 #### 💬 For Sell Cheating & Support  : [discord.gg/Sarnax](https://discord.com/invite/sarnax) 
 > ##### Discord : Sarnax#9999
@@ -27,7 +26,7 @@
 
 
 
-#### Just someone else's GUI, the SRC is mine.
+[+] - Just someone else's GUI, the SRC is mine.
 
 #### What is Codedx Valorant?
 

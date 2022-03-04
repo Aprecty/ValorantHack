@@ -16,6 +16,8 @@ All of this is only 70%, of course you need another 30% and I'm selling it, plea
 > - Craete Cheating Private // Spoofer and Source 
 > - Contact Discord to order.
 
+
+> -[ 💢 ] If you can't log in to the server, please add my friend because sometimes the invite link might be problematic.
 ***
 
 

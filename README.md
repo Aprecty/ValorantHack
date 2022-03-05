@@ -11,7 +11,7 @@ All of this is only 70%, of course you need another 30% and I'm selling it, plea
 </p>
 
 
-#### 💬 For Sell Cheating & Support  : [discord.gg/Sarnax](https://discord.com/invite/sarnax) 
+#### 💬 For Sell Cheating & Support  : [discord.gg/Sarnax](https://discord.com/invite/sarnax) 💢 Discord Problem wait update 💢
 > ##### Discord : Sarnax#9999
 > - Craete Cheating Private // Spoofer and Source 
 > - Contact Discord to order.

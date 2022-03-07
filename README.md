@@ -11,10 +11,12 @@ All of this is only 70%, of course you need another 30% and I'm selling it, plea
 </p>
 
 
-#### 💬 For  Support  : [discord.gg/Sarnax](https://discord.com/invite/sarnax)  New Server
+#### 💬 Access Discord to help / support 24 Hr.  : [discord.gg/Sarnax](https://discord.com/invite/sarnax)
 > ##### Discord : Sarnax#9999
+> Contact to order Cheating Private that is the most secure.
 > - We give you privacy.
 > - come in to be the same society as us
+
 ***
 
 

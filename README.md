@@ -11,40 +11,21 @@ All of this is only 70%, of course you need another 30% and I'm selling it, plea
 </p>
 
 
-#### 💬 Access Discord to help / support 24 Hr.  : [discord.gg/Sarnax](https://discord.com/invite/sarnax)
+#### 💬 JOIN DISCORD : [discord.gg/Sarnax](https://discord.com/invite/sarnax)
 > ##### Discord : Sarnax#9999
-> Contact to order Cheating Private that is the most secure.
-> - We give you privacy.
+> - DM for buy Cheating Private & Source ( UD + Update Lifetime )
 > - come in to be the same society as us
 
 ***
 
 
-
-##### 🔺 This source code has been updated to the newest Valorant patch, please do not message me about it. 🔺
-
-![3f4d40d7a0c596a0](https://user-images.githubusercontent.com/94861415/156389339-a2252823-97c0-4efc-89f4-f099b94b2f29.png)
+![nice_aimbot](https://user-images.githubusercontent.com/94861415/157216490-bf18b872-a659-4cc8-91b0-7e647da67e91.png)
 
 
-
-[+] - Just someone else's GUI, the SRC is mine.
-
-#### What is Codedx Valorant?
-
- - Inside the folder there is a spoofer that you can use to build your own. 
- - Codedx is a fully featured internal hack for Valorant written in C++.
-
+#### Functionality
 ```
 Features
-* Menu
-* Line
-* Name
-* Health
-* Disance
-* Color
-* Smooth
-* Aim
-* Bone
-* Fov
-* Etc.
+- AIMBOT + ESP + NORECOIL 
+- MISC : Prevent screen capture + Prevent Report
 ```
+##### If you need additional functionality contact Discord as Cheating Private is not pre-built so it is always safe. because we are constantly updating Make sure you have a safe chat.

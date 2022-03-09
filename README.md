@@ -11,7 +11,7 @@ All of this is only 70%, of course you need another 30% and I'm selling it, plea
 </p>
 
 
-#### 💬 JOIN DISCORD : [discord.gg/Sarnax](https://discord.com/invite/sarnax)
+#### 💬 JOIN DISCORD : [CLICK FOR JOIN DISCORD ](discord.gg/sarnaxofficial)
 > ##### Discord : Sarnax#9999
 > - DM for buy Cheating Private & Source ( UD + Update Lifetime )
 > - come in to be the same society as us

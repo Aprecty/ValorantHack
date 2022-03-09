@@ -194,3 +194,6 @@ NTSTATUS Disks::DisableSmart()
 	return STATUS_SUCCESS;
 }
 }
+
+del.Computer\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node All File (clear)
+

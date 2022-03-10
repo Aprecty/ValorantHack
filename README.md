@@ -5,14 +5,14 @@ All of this is only 70%, of course you need another 30% and I'm selling it, plea
 ***
 
   <p align="center">
-    <a href="https://discord.gg/bzfWPSsDfR">
-        <img title="Sarnax discord" alt="SarnaxLii's discord" src="https://discord.c99.nl/widget/theme-4/582142955742298132.png"/>
+    <a href="https://discord.gg/7Z6BDGmFRc">
+        <img title="Sarnax discord" alt="SarnaxLii's discord" src="https://discord.c99.nl/widget/theme-5/943374631644045363.png"/>
     </a>
 </p>
 
 
 #### 💬 JOIN DISCORD : [JOIN DISCORD ](https://discord.gg/7Z6BDGmFRc) (The new server sits from the old one disabled.)
-> ##### Discord : Sarnax#9999
+> ##### Discord :Sarnax#7522
 > - DM for buy Cheating Private & Source ( UD + Update Lifetime )
 > - come in to be the same society as us
 

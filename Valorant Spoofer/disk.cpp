@@ -2,8 +2,6 @@
 #include <ntstrsafe.h>
 #include "utils.h"
 #include "shared.h"
-#include "log.h"
-#include "disks.h"
 
 
 /**

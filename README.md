@@ -10,7 +10,7 @@ All of this is only 70%, of course you need another 30% and I'm selling it, plea
 </p>
 
 
-#### 💬 New Server Discord : [Discord.gg/Sarnax](https://discord.gg/sFUeS3E6Sz) 
+#### 💬 Join Discord : [Discord.gg/Sarnax](https://discord.gg/sFUeS3E6Sz) (NEW SERVER)
 > - DM for buy Cheating Private & Source
 > - come in to be the same society as us
 

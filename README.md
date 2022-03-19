@@ -25,7 +25,8 @@ All of this is only 70%, of course you need another 30% and I'm selling it, plea
 
 GUI : https://www.unknowncheats.me/forum/index.php ( I just brought an example to show you ) 
 
-https://user-images.githubusercontent.com/94861415/157218692-e9da2c6a-9624-4bda-91df-cfd13484d06d.mov
+
+![09844 (1)](https://user-images.githubusercontent.com/94861415/159138733-9ab44c53-e8a6-44d7-839e-de81de172090.png)
 
 
 

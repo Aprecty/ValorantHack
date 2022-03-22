@@ -2,6 +2,9 @@
 ###  Valorant Aimbot + Esp C++ 
 All of this is only 70%, of course you need another 30% and I'm selling it, please log in to Discord to order.
 
+CREDIT : https://github.com/0x00001337  Feel free to use it! But atleast credit me. 
+
+
 ***
   <p align="center">
     <a href="https://discord.com/users/943374631644045363">

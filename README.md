@@ -32,7 +32,6 @@ GUI : https://www.unknowncheats.me/forum/index.php ( I just brought an example t
 
 
 
-### CREDIT : https://github.com/0x00001337  Feel free to use it! But atleast credit me. 
 #### Functionality
 ```
 Features

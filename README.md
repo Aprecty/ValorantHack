@@ -13,7 +13,7 @@ All of this is only 70%, of course you need another 30% and I'm selling it, plea
 </p>
 
 
-### :speech_balloon: JOIN DISCORD / PRICES  : [HEX SUPER X](https://discord.gg/d7bDdS4Sw8)
+### 💬 JOIN DISCORD / PRICES  : [HEX SUPER X](https://discord.com/users/943374631644045363) Add friend for invite
 > - Dm for Create Cheating Private ( Cannot detect because it is constantly being updated )
 > - We do not expect profit We hope you only get good things.
 

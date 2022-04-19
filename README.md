@@ -13,25 +13,14 @@ All of this is only 70%, of course you need another 30% and I'm selling it, plea
 </p>
 
 
-### :speech_balloon: JOIN DISCORD / PRICES  : [HEX COMMUNITY](https://discord.gg/T8AnBJ3ADS)
+### 💬 JOIN DISCORD / PRICES  : [HEX SUPER X](https://discord.com/users/943374631644045363) Add friend for invite
 > - Dm for Create Cheating Private ( Cannot detect because it is constantly being updated )
 > - We do not expect profit We hope you only get good things.
 
 
 ***
 
-
-![09844](https://user-images.githubusercontent.com/94861415/160953196-5551e224-dc1c-4e3a-9083-7b987fc279e4.png)
-
-
-
-
-
-GUI : https://www.unknowncheats.me/forum/index.php ( I just brought an example to show you ) 
-
-
-![09844 (1)](https://user-images.githubusercontent.com/94861415/160953185-a4b7505e-8afb-40a6-8f1c-b9035969edd2.png)
-
+![nice release](https://user-images.githubusercontent.com/94861415/164107507-00aaed99-f9aa-4f19-998e-3fb23d5e23ca.png)
 
 
 

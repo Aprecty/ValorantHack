@@ -1,9 +1,8 @@
-
-
 ###  Valorant Aimbot + Esp C++ 
-All of this is only 70%, of course you need another 30% and I'm selling it, please log in to Discord to order.
-
-
+```sh-session
+VALORANT EXTERNAL RELEASE C++ / AIMBOT / ESP / SPOOFER / EDIT AS YOU WISH
+- YOU CAN EDIT AND USE IT WITH YOUR PROJECT WITH JUST A FEW TWEAKS FOR FULL VERSION CONTACT DISCORD
+```
 
 ***
   <p align="center">
@@ -12,22 +11,36 @@ All of this is only 70%, of course you need another 30% and I'm selling it, plea
     </a>
 </p>
 
+<p align="center">
+    <a href="https://discord.com/users/943374631644045363">
+        <img title="Sarnax discord" alt="SarnaxLii's discord" src="https://discordapp.com/api/guilds/928580076633739274/widget.png?style=banner2"/>
+    </a>
+</p>
 
-### 💬 JOIN DISCORD / PRICES  : [HEX COMMUNITY](https://discord.com/users/943374631644045363) Add friend for invite
-> - Dm for Create Cheating Private ( Cannot detect because it is constantly being updated )
-> - We do not expect profit We hope you only get good things.
+* ` SELL CHEATING PRIVATE / SPOOFER / SOURCE CODE / ETC `
+* ` IF YOU WANT A SAFE CHEATING PRIVATE , THINK OF ME`
+* ` SAFE 100% IF BANNED = REFUND`
+* ` UPDATE LIFETIME & SUPPORT 24 HR `
 
-
+🤓・To order, please add a friend to request an invitation to the Discord server.
+                           
+                           
+## Features
+<details>
+<summary>Features (Drop Down)</summary>
+  
+* AIMBOT
+  
+* ESP
+  
+* SPOOFER HARDWARE IDS
+  </details>
 ***
 
-![nice release](https://user-images.githubusercontent.com/94861415/164107507-00aaed99-f9aa-4f19-998e-3fb23d5e23ca.png)
+![cccsc](https://user-images.githubusercontent.com/94861415/164327675-7b80b794-7cb7-4234-8e9f-d65aaa913b27.png)
 
 
+![nice release](https://user-images.githubusercontent.com/94861415/164327708-94d92101-6dc0-4833-ae80-7894b448dad3.png)
 
-#### Functionality
-```
-Features
-- AIMBOT + ESP + NORECOIL 
-- MISC : Prevent screen capture + Prevent Report
-```
+
 

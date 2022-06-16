@@ -11,7 +11,7 @@ VALORANT EXTERNAL RELEASE C++ / AIMBOT / ESP / SPOOFER / DRIVER
 </p>
 
 
-### 📌・ DISCORD : [HEX SERVER](https://discord.gg/JsxqNHgR4m) 
+### 📌・ NEW DISCORD : [HEX SERVER](https://discord.gg/JsxqNHgR4m)  
 
 
 * `👋 SELL CHEATING PRIVATE / SPOOFER / SOURCE CODE / ETC `

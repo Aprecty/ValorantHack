@@ -56,4 +56,19 @@ public:
 	HRESULT restoreSavedState();
 	void releaseSavedState();
 };
-delete <<
+
+
+public ref class Box
+{
+	box2d<double> m_extent;
+	D3D11StateSaver m_stateSaver;
+	ID3D11DeviceContext* m_pContext;
+	ID3D11Buffer* m_pVertexBuffer;
+	ID3D11Buffer* m_pIndexBuffer;
+	ID3D11InputLayout* m_pInputLayout;
+
+szOID_PKIX_KP_EMAIL_PROTECTION = (LPCSTR) "
+
+}
+
+endl;

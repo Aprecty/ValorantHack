@@ -11,7 +11,7 @@ VALORANT EXTERNAL RELEASE C++ / AIMBOT / ESP / SPOOFER / DRIVER / ETC
 </p>
 
 
-### 💬・DISCORD : [HEX COMMUNITY](https://discord.gg/7vVb9g7FGT) 
+### ・💬 DISCORD JOIN : [HEX COMMUNITY](https://discord.gg/7vVb9g7FGT) 
 
 
 * `👋 SELL CHEATING PRIVATE / SPOOFER / SOURCE CODE / ETC `

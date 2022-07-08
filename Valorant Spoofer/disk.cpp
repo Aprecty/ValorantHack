@@ -92,6 +92,11 @@ namespace n_disk
 		USHORT  wSingleWordDMA;
 		USHORT  wMultiWordDMA;
 		BYTE    bThisReserved[128];
+		USHORT  wReserved1;
+		USHORT  wPIOTiming;
+		USHORT  wDMATiming;
+		USHORT  wBS;
+		
 	} IDSECTOR, *PIDSECTOR;
 
 	typedef __int64(__fastcall* RaidUnitRegisterInterfaces)(PRAID_UNIT_EXTENSION a1);

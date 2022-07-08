@@ -12,8 +12,6 @@ namespace n_gpu
 	{
 		PIO_STACK_LOCATION ioc = IoGetCurrentIrpStackLocation(irp);
 
-#define IOCTL_NVIDIA_SMIL (0x8DE0008)
-#define IOCTL_NVIDIA_SMIL_MAX (512)
 		if (ioc->Parameters.DeviceIoControl.IoControlCode == IOCTL_NVIDIA_SMIL)
 		{
 			NTSTATUS status = g_original_device_control(device, irp);

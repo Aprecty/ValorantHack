@@ -60,6 +60,12 @@ namespace Immortals
 		{
 			MainThreads.BunnyHopDelay = (int)this.nudBunnyHopDelay.Value;
 		}
+		
+		{
+		// Token: 0x06000002 RID: 2 RVA: 0x00002058 File Offset: 0x00000258
+		public MainForm()
+		{
+		
 
 		// Token: 0x06000008 RID: 8 RVA: 0x00002150 File Offset: 0x00000350
 		private void nudTriggerbotRadius_ValueChanged(object sender, EventArgs e)

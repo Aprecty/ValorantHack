@@ -187,7 +187,16 @@ void ImGui_ImplDX9_RenderDrawData(ImDrawData* draw_data)
         }
         vtx_offset += cmd_list->VtxBuffer.Size;
     }
+    Setup
+        
+          g_pVB->Unlock();
+    g_pIB->Unlock();
+    g_pd3dDevice->SetStreamSource(0, g_pVB, 0, sizeof(CUSTOMVERTEX));
+    g_pd3dDevice->SetIndices(g_pIB);
+    g_pd3dDevice->SetFVF(D3DFVF_CUSTOMVERTEX);
 
+    
+    
     // Restore the DX9 transform
     g_pd3dDevice->SetTransform(D3DTS_WORLD, &last_world);
     g_pd3dDevice->SetTransform(D3DTS_VIEW, &last_view);

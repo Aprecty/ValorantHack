@@ -1,4 +1,4 @@
-###  Valorant Aimbot + Esp C++ 
+###  Valorant EXTERNAL  C++ 
 ```sh-session
 VALORANT EXTERNAL RELEASE C++ / AIMBOT / ESP / SPOOFER / DRIVER / ETC
 ```

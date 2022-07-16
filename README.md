@@ -33,20 +33,31 @@ VALORANT EXTERNAL RELEASE C++ / AIMBOT / ESP / SPOOFER / DRIVER / ETC
 <details>
 <summary>Features (Drop Down)</summary>
   
-* AIMBOT
+### [1] : AIMBOT
+  * You can define your own shortcut keys.
+  * can choose to lock the location  ( Head / Body / foot )
+  * Smooth
   
-* ESP
+### [2] : ESP 
+  * 2D , 3D , SKELTON , BOX 
+  * You can turn the feature on and off by yourself
+  * Set the value to be able to show the distance you want to display.
   
-* SPOOFER HARDWARE IDS
+### [3] : MISC
+    * Crosshair 
+    * Save Config
+  
+### [4] : SPOOFER
+      * Soon
   </details>
-***
+  
+  ***
 
-![cccsc](https://user-images.githubusercontent.com/94861415/164327675-7b80b794-7cb7-4234-8e9f-d65aaa913b27.png)
+https://user-images.githubusercontent.com/94861415/179344045-3140a661-3d4b-400d-9728-d9500a0a5d4e.mp4
 
 
 
 
-https://user-images.githubusercontent.com/94861415/174427195-29101b6e-f448-492f-90ff-85686b01ab23.mp4
 
 
 

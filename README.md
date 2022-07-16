@@ -9,6 +9,8 @@ VALORANT EXTERNAL RELEASE C++ / AIMBOT / ESP / SPOOFER / DRIVER / ETC
 ・ All source code shows only partial functionality. This is not the full version. We removed some files for safety reasons.
 
 ・ If you want it to work You can contact discord for our assistance.
+
+・ Source Shows work to make sure I'm legit and you can trust it. You can contact discord to place an order.
 ***
   <p align="center">
     <a href="https://discord.com/users/943374631644045363">

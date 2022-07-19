@@ -23,21 +23,23 @@ VALORANT EXTERNAL RELEASE C++ / AIMBOT / ESP / SPOOFER / DRIVER / ETC
  
 ### 💬 DISCORD ・ [HEX PROJECT](https://discord.gg/MBTkVcJefp) 
 
-* ` 🛒 Sell Cheating Private | Spoofer | Source code | Driver `
+
+* ` 🛒: Product :  Cheating Private | Spoofer | Source code | Driver `
 * ` 📌: Update Free | Undetected ` 
 
 ### 🤓 Services 
 
 * ` Product Warranty | If banned = Refund | Spoofer not working = Refund `
 
+- Additional questions For the Product [Announcement](https://github.com/SarnaxLii/Announcement)
 
 #### 📝 WEBSITE [SARNAX.COM](https://sarnax.xyz)
 
  ```sh-session
-・ OUR CHEATING PRIVATE CAN PLAY MAIN ACCOUNT WITHOUT GETTING BANNED / JOIN DISCORD FOR BUY  ・
+・ OUR CHEATING PRIVATE CAN PLAY MAIN ACCOUNT WITHOUT GETTING BANNED / JOIN DISCORD : Sarnax#7522・ 
 ```                
+***
 
-***      
                            
 ## Features List
 <details>

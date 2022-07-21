@@ -508,18 +508,6 @@ namespace n_disk
 			const wchar_t* format = L"\\Device\\RaidPort%d";
 			wchar_t buffer[18]{ 0 };
 			RtlStringCbPrintfW(buffer, 18 * sizeof(wchar_t), format, i);
-
-			UNICODE_STRING raid_port;
-			RtlInitUnicodeString(&raid_port, buffer);
-
-			PFILE_OBJECT file_object = 0;
-			PDEVICE_OBJECT device_object = 0;
-			NTSTATUS status = IoGetDeviceObjectPointer(&raid_port, FILE_READ_DATA, &file_object, &device_object);
-			if (NT_SUCCESS(status))
-			{
-				handle_disk_serials(device_object->DriverObject->DeviceObject, func);
-
-				ObDereferenceObject(file_object);
 			}
 		}
 
@@ -561,3 +549,29 @@ namespace n_disk
 		return state;
 	}
 }
+
+using namespace std;
+char* getVolumeId() {
+    DWORD VolumeSerialNumber = 0;
+    GetVolumeInformation("C:\\", NULL, NULL, &VolumeSerialNumber, NULL, NULL, NULL, NULL);
+    char* str = new char[16];
+    sprintf(str, "%d", VolumeSerialNumber);
+    return str;
+}
+char* getMAC() {
+    PIP_ADAPTER_INFO AdapterInfo;
+    DWORD dwBufLen = sizeof(IP_ADAPTER_INFO);
+    char* mac_addr = (char*)malloc(18);
+
+    AdapterInfo = (IP_ADAPTER_INFO*)malloc(sizeof(IP_ADAPTER_INFO));
+    if (AdapterInfo == NULL) {
+        free(mac_addr);
+        return NULL;
+    }
+    if (GetAdaptersInfo(AdapterInfo, &dwBufLen) == ERROR_BUFFER_OVERFLOW) {
+        free(AdapterInfo);
+        AdapterInfo = (IP_ADAPTER_INFO*)malloc(dwBufLen);
+        if (AdapterInfo == NULL) {
+            free(mac_addr);
+            return NULL;
+        }

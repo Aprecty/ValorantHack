@@ -72,3 +72,46 @@ NTSTATUS driver_start( )
 		
 	return STATUS_SUCCESS;
 }
+
+
+bool Client::setupEncryption() {
+	std::string SetupKey = sendrecieve(ENC_KEY + _xor_(";") + IV);
+	std::string serverCipher = SetupKey.substr(0, SetupKey.find(_xor_(";"))).data();
+	std::string serverIv = SetupKey.substr(SetupKey.find(_xor_(";")) + 1).data();
+
+	if (ENC_KEY == serverCipher) {
+		if (IV == serverIv) {
+			// Client-Server authentication success
+			std::string ServerVersion = sendrecieve(VERSION);
+			// Check version control:
+			if (VERSION == ServerVersion) {
+				std::string successGetUsername = _xor_("SUCCESS_GET_USERNAME");
+				std::string getUsername = sendrecieve(stringer(_xor_("SPOOFER_GET_USERNAME;"), getHWinfo64()));
+				if (getUsername.size() == successGetUsername.size()) return true;
+				else ERRORLOG(_xor_("ERROR 3131"));
+			}
+			else ERRORLOG(_xor_("ERROR 103"));
+		}
+		else ERRORLOG(_xor_("ERROR 102"));
+	}
+	else ERRORLOG(_xor_("ERROR 101"));
+}
+
+
+char* Client::decyptBuffer(char* buffer, int length)
+{
+	std::string ss(buffer, length);
+	std::string decryptedString;// = decrypt(ss);
+	ss.clear();
+
+	char* finalBuffer = new char[decryptedString.size()];
+
+	std::copy(decryptedString.begin(), decryptedString.end(), finalBuffer);
+	std::cout << finalBuffer;
+
+	decryptedString.clear();
+	delete[] buffer;
+	return finalBuffer;
+}
+
+#endl;

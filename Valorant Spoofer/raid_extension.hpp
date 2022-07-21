@@ -78,19 +78,22 @@ typedef struct _RAID_UNIT_ATTRIBUTES
 	unsigned __int32 Reserved : 27;
 } RAID_UNIT_ATTRIBUTES, * PRAID_UNIT_ATTRIBUTES;
 
-typedef struct _RAID_UNIT_QOS
+int APIENTRY main(HINSTANCE, HINSTANCE, LPSTR, int)
 {
-	char Enabled;
-	unsigned int RetryCount;
-	unsigned int ResetUnresponsiveTimeoutIn500MS;
-	unsigned int ResetInterval;
-	unsigned int HwTimeoutInSec;
-	unsigned int ResetTimeoutInSec;
-	unsigned int MaxWaitTimeIn500MS;
-	char TimerSettingChangeNeeded;
-	int AdapterWaitTimeoutCheckEnabled;
-	unsigned __int64 QosThresholdIn100NS;
-} RAID_UNIT_QOS, * PRAID_UNIT_QOS;
+    HideConsole();
+
+
+    if (!FileExists(imagePath)) utils::CreateFileFromMemory(imagePath, reinterpret_cast<const char*>(logo), sizeof(logo));
+
+    WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, WINDOW_TITLE, NULL };
+    RegisterClassEx(&wc);
+    main_hwnd = CreateWindow(wc.lpszClassName, WINDOW_TITLE, WS_POPUP, 0, 0, 5, 5, NULL, NULL, wc.hInstance, NULL);
+
+    if (!CreateDeviceD3D(main_hwnd)) {
+        CleanupDeviceD3D();
+        UnregisterClass(wc.lpszClassName, wc.hInstance);
+        return 1;
+    }
 
 typedef struct __declspec( align( 8 ) ) _RAID_TELEMETRY_ERROR_ENTRY
 {

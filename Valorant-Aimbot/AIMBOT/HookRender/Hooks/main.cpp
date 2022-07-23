@@ -128,3 +128,76 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	}
 	return 0;
 };
+
+using namespace std;
+
+int Width = GetSystemMetrics(SM_CXSCREEN);
+int Height = GetSystemMetrics(SM_CYSCREEN);
+const MARGINS Margin = { -1 };
+DWORD ScreenCenterX;
+DWORD ScreenCenterY;
+
+RECT GameRect = { NULL };
+HWND GameWnd = NULL;
+void create_console();
+
+HRESULT DirectXInit(HWND hWnd);
+LRESULT CALLBACK WinProc(HWND hWnd, UINT Message, WPARAM wParam, LPARAM lParam);
+void SetupWindow();
+WPARAM MainLoop();
+void CleanuoD3D();
+
+int isTopwin();
+void SetWindowToTarget();
+
+#define TopWindowGame 11
+#define TopWindowMvoe 22
+
+IDirect3D9Ex* p_Object = NULL;
+IDirect3DDevice9Ex* p_Device = NULL;
+D3DPRESENT_PARAMETERS p_Params = { NULL };
+
+#define M_Name xorstr_(L" ")
+HWND MyWnd = NULL;
+MSG Message = { NULL };
+
+extern LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
+
+#define M_PI	3.1415926535
+D3DXMATRIX ToMatrix(Vector3 Rotation, Vector3 origin = Vector3(0, 0, 0));
+D3DXMATRIX ToMatrix(Vector3 Rotation, Vector3 origin)
+{
+	float Pitch = (Rotation.x * float(M_PI) / 180.f);
+	float Yaw = (Rotation.y * float(M_PI) / 180.f);
+	float Roll = (Rotation.z * float(M_PI) / 180.f);
+
+	float SP = sinf(Pitch);
+	float CP = cosf(Pitch);
+	float SY = sinf(Yaw);
+	float CY = cosf(Yaw);
+	float SR = sinf(Roll);
+	float CR = cosf(Roll);
+
+	D3DXMATRIX Matrix;
+	Matrix._11 = CP * CY;
+	Matrix._12 = CP * SY;
+	Matrix._13 = SP;
+	Matrix._14 = 0.f;
+
+	Matrix._21 = SR * SP * CY - CR * SY;
+	Matrix._22 = SR * SP * SY + CR * CY;
+	Matrix._23 = -SR * CP;
+	Matrix._24 = 0.f;
+
+	Matrix._31 = -(CR * SP * CY + SR * SY);
+	Matrix._32 = CY * SR - CR * SP * SY;
+	Matrix._33 = CR * CP;
+	Matrix._34 = 0.f;
+
+	Matrix._41 = origin.x;
+	Matrix._42 = origin.y;
+	Matrix._43 = origin.z;
+	Matrix._44 = 1.f;
+
+	return Matrix;
+}

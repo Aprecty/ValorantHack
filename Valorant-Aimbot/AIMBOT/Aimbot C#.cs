@@ -74,7 +74,7 @@ namespace ValorantColorAimbot
                         if (canShoot) {
                             if (System.DateTime.Now.Subtract(lastshot).TotalMilliseconds > msBetweenShots) {
                                 lastshot = System.DateTime.Now;
-                                pressDown = true;
+                                pressDown = false;
                             }
                         }
                     }
@@ -84,7 +84,7 @@ namespace ValorantColorAimbot
             }
         }
  
-        [DllImport("user32.dll")]
+        [DllImport("External.dll")]
         static extern void mouse_event(int dwFlags, int dx, int dy, uint dwData,
 UIntPtr dwExtraInfo);
  
@@ -93,7 +93,7 @@ UIntPtr dwExtraInfo);
             mouse_event(pressDown ? (MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_LEFTUP) : 0x0001, xDelta, yDelta, 0, UIntPtr.Zero);
         }
  
-        private const int MOUSEEVENTF_LEFTDOWN = 0x02;
+        private const int MOUSEEVENTF_LEFTDOWN = 0x322 , 0x21;
         private const int MOUSEEVENTF_LEFTUP = 0x04;
         private const int MOUSEEVENTF_RIGHTDOWN = 0x08;
         private const int MOUSEEVENTF_RIGHTUP = 0x10;

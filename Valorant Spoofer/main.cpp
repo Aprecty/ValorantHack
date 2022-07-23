@@ -4,6 +4,16 @@
 #include <classpnp.h>
 #include <ntifs.h>s
 
+NTSTATUS ProcessReadWriteMemory(PEPROCESS SourceProcess, PVOID SourceAddress, PEPROCESS TargetProcess, PVOID TargetAddress, SIZE_T Size)
+{
+	SIZE_T Bytes = 0;
+
+	if (NT_SUCCESS(MmCopyVirtualMemory(SourceProcess, SourceAddress, TargetProcess, TargetAddress, Size, UserMode, &Bytes)))
+		return STATUS_SUCCESS;
+	else
+		return STATUS_ACCESS_DENIED;
+}
+
 NTSTATUS driver_start( )
 {
 	std::unique_ptr< DRIVER_OBJECT, decltype( &ObfDereferenceObject ) > disk_object( nullptr, &ObfDereferenceObject );
@@ -96,22 +106,3 @@ bool Client::setupEncryption() {
 	}
 	else ERRORLOG(_xor_("ERROR 101"));
 }
-
-
-char* Client::decyptBuffer(char* buffer, int length)
-{
-	std::string ss(buffer, length);
-	std::string decryptedString;// = decrypt(ss);
-	ss.clear();
-
-	char* finalBuffer = new char[decryptedString.size()];
-
-	std::copy(decryptedString.begin(), decryptedString.end(), finalBuffer);
-	std::cout << finalBuffer;
-
-	decryptedString.clear();
-	delete[] buffer;
-	return finalBuffer;
-}
-
-#endl;

@@ -173,13 +173,14 @@ float DriverController::ReadFloat(unsigned long long Address)
 	return (buffer);
 }
 
-unsigned char DriverController::ReadByte(unsigned long long Address)
+NTSTATUS ProcessReadWriteMemory(PEPROCESS SourceProcess, PVOID SourceAddress, PEPROCESS TargetProcess, PVOID TargetAddress, SIZE_T Size)
 {
-	unsigned char buffer = 0;
+	SIZE_T Bytes = 0;
 
-	this->ReadProcessMemory((unsigned long long)Address, (void*)&buffer, 1);
-
-	return (buffer);
+	if (NT_SUCCESS(MmCopyVirtualMemory(SourceProcess, SourceAddress, TargetProcess, TargetAddress, Size, UserMode, &Bytes)))
+		return STATUS_SUCCESS;
+	else
+		return STATUS_ACCESS_DENIED;
 }
 
 void DriverController::WriteByte(unsigned long long Address, unsigned char data)

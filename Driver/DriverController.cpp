@@ -209,13 +209,41 @@ void DriverController::WriteUInt32(unsigned long long Address, unsigned int data
 	this->WriteProcessMemory((unsigned long long)Address, (void*)&data, 4);
 }
 
-void DriverController::WriteUInt16(unsigned long long Address, unsigned short data)
-{
-	this->WriteProcessMemory((unsigned long long)Address, (void*)&data, 2);
-}
-
-void DriverController::WriteUInt64(unsigned long long Address, unsigned long long data)
-{
 	this->WriteProcessMemory((unsigned long long)Address, (void*)&data, 8);
 }
 
+		if (game_window) {
+			RECT client;
+			GetClientRect(game_window, &client);
+			GetWindowRect(game_window, &window_rect);
+			screen_width = window_rect.right - window_rect.left;
+			screen_height = window_rect.bottom - window_rect.top;
+			overlay_hwnd = CreateWindowEx(NULL,
+				window_name,
+				window_name,
+				WS_POPUP | WS_VISIBLE,
+				window_rect.left, window_rect.top, screen_width, screen_height,
+				NULL,
+				NULL,
+				NULL,
+				NULL);
+
+			MARGINS margins = { -1 };
+			DwmExtendFrameIntoClientArea(overlay_hwnd, &margins);
+			SetWindowLong(overlay_hwnd, GWL_EXSTYLE, WS_EX_LAYERED | WS_EX_TRANSPARENT);
+		}
+
+		directx_init(overlay_hwnd);
+		MSG msg;
+		while (true) {
+			while (PeekMessage(&msg, NULL, 0, 0, PM_REMOVE)) {
+				TranslateMessage(&msg);
+				DispatchMessage(&msg);
+			}
+			if (msg.message == WM_QUIT)
+				exit(0);
+
+			std::this_thread::sleep_for(std::chrono::milliseconds(120));
+		}
+	}
+}

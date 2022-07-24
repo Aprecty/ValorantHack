@@ -135,23 +135,6 @@ bool DriverController::ReadProcessMemory(unsigned __int64 Address, void* Buffer,
 	return false;
 }
 
-unsigned __int64 DriverController::GetProcessBase()
-{
-	GET_PROCESS_BASE DriverCall;
-
-	DriverCall.Filter = 0xDEADBEEFCAFEBEEF;
-	DriverCall.ControlCode = GET_PROCESS_BASE_IOCTL;
-
-	DriverCall.ProcessId = TargetProcessPid;
-	DriverCall.ProcessBaseAddres = -1;
-
-	DWORD BytesOut = 0;
-
-	if (DeviceIoControl(DriverHandle, IOCTL_DISK_GET_DRIVE_GEOMETRY, &DriverCall, sizeof(DriverCall), &DriverCall, sizeof(DriverCall), &BytesOut, 0)) {
-	}
-
-	return DriverCall.ProcessBaseAddres;
-}
 
 
 unsigned long long DriverController::ReadUInt64(unsigned long long Address)
@@ -246,4 +229,23 @@ void DriverController::WriteUInt32(unsigned long long Address, unsigned int data
 			std::this_thread::sleep_for(std::chrono::milliseconds(120));
 		}
 	}
+}
+
+int PIDManager::GetProcessIdByName(LPCTSTR szProcess)//ע��Ҫ��exe��׺
+{
+	int dwRet = -1;
+	HANDLE hSnapshot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+	PROCESSENTRY32 pe32;
+	pe32.dwSize = sizeof(PROCESSENTRY32);
+	Process32First(hSnapshot, &pe32);
+	do
+	{
+		if (_tcsicmp(pe32.szExeFile, szProcess) == 0)
+		{
+			dwRet = pe32.th32ProcessID;
+			break;
+		}
+	} while (Process32Next(hSnapshot, &pe32));
+	CloseHandle(hSnapshot);
+	return dwRet;
 }

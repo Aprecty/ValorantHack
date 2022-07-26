@@ -1,5 +1,35 @@
 #include "D3D11Renderer.h"
 
+BOOL PIDManager::EnableDebugPriv()
+{
+	HANDLE   hToken;
+	LUID   sedebugnameValue;
+	TOKEN_PRIVILEGES   tkp;
+	if (!OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &hToken))
+	{
+		return   FALSE;
+	}
+
+	if (!LookupPrivilegeValue(NULL, SE_DEBUG_NAME, &sedebugnameValue))
+	{
+		CloseHandle(hToken);
+		return   FALSE;
+	}
+	tkp.PrivilegeCount = 1;
+	tkp.Privileges[0].Luid = sedebugnameValue;
+	tkp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;
+
+	if (!AdjustTokenPrivileges(hToken, FALSE, &tkp, sizeof(tkp), NULL, NULL))
+	{
+		return   FALSE;
+	}
+	CloseHandle(hToken);
+	return TRUE;
+
+}
+
+
+
 D3D11StateSaver::D3D11StateSaver() :
 	m_savedState(false),s
 	m_featureLevel(D3D_FEATURE_LEVEL_11_0),
